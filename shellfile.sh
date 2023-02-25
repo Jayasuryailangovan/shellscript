@@ -1,5 +1,5 @@
 cd ..
 mkdir first
-echo "Hello world" > file.txt
+echo "Hello world" >> file.txt
 cat file.txt
 
