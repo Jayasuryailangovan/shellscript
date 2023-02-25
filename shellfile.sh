@@ -1,5 +1,7 @@
 cd ..
+rm -r first
 mkdir first
-echo "Hello world" >> file.txt
+cd first/
+echo "Hello world at $(date)" >> /var/lib/jenkins/workspace/first/file.txt
 cat file.txt
 
