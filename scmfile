@@ -1,0 +1,19 @@
+pirpeline{
+  agent any
+  stages{
+  stage('dev stage')
+  {
+    steps
+    {
+     sh "echo Hello dev stage"
+    }
+  }
+  stage('test stage')
+  {
+    steps
+    {
+     sh "echo test stage"
+    }
+  }
+  }
+}
