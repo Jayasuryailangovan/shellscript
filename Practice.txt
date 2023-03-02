@@ -1,5 +1,5 @@
-Pipeline{
-  agents any{
+pipeline{
+  agent any{
     stages{
       stage('first stage')
       {
